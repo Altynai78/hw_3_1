@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="gray"
+    android:orientation="vertical">
+
+      <EditText
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="90dp"
+            android:hint="Ввыдите email"
+            android:textSize="23sp"
+            android:paddingStart="12dp"
+            android:id="@+id/ed_email"
+            android:background="@drawable/email"/>
+
+      <EditText
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_gravity="center"
+          android:layout_marginTop="20dp"
+          android:hint="theme"
+          android:textSize="23sp"
+          android:paddingStart="12dp"
+          android:id="@+id/ed_thema"
+          android:background="@drawable/email"/>
+      <EditText
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_gravity="center"
+          android:layout_marginTop="20dp"
+          android:hint="Enter your text"
+          android:textSize="23sp"
+          android:paddingStart="12dp"
+          android:id="@+id/ed_text"
+          android:background="@drawable/email"/>
+
+      <Button
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="SEND"
+            android:textSize="20sp"
+            android:id="@+id/et_send"/>
+
+
+
+</LinearLayout>
